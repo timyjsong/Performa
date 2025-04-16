@@ -1,5 +1,5 @@
 # Node.js / React frontend
-*/node_modules/
+**/node_modules/
 /.pnp
 .pnp.js
 /coverage
@@ -26,10 +26,10 @@ __pycache__/
 *$py.class
 *.so
 .Python
-/venv/
-/env/
-/.venv/
-/.env/
+**/venv/
+**/env/
+**/.venv/
+**/.env/
 /ENV/
 /env.bak/
 /venv.bak/
@@ -89,4 +89,4 @@ logs
 ehthumbs.db
 Thumbs.db
 
-*/skeletons/
+**/skeletons/
