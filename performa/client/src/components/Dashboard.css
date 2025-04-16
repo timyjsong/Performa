@@ -1,0 +1,47 @@
+.dashboard {
+  padding: 20px;
+}
+
+.dashboard h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.actions {
+  margin: 20px 0;
+}
+
+.player-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.error {
+  color: #e74c3c;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.5rem;
+  background-color: #fceaea;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.no-data {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.2rem;
+  color: #666;
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}

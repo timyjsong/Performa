@@ -1,0 +1,104 @@
+.player-details {
+  padding: 20px;
+}
+
+.back-link {
+  margin-bottom: 20px;
+}
+
+.back-link a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+}
+
+.back-link a:hover {
+  text-decoration: underline;
+}
+
+.player-header {
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.player-header h1 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.player-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.team, .position, .sport {
+  background-color: #f8f9fa;
+  padding: 5px 12px;
+  border-radius: 16px;
+  font-size: 0.9rem;
+  color: #495057;
+}
+
+.stats-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .stats-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+.stat-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+}
+
+.stat-card h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.chart {
+  height: 300px;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.error {
+  color: #e74c3c;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.5rem;
+  background-color: #fceaea;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.not-found {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.5rem;
+  color: #666;
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}

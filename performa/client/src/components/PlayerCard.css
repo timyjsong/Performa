@@ -1,0 +1,103 @@
+.player-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.player-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.player-header {
+  margin-bottom: 16px;
+}
+
+.player-header h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.player-meta {
+  display: flex;
+  gap: 8px;
+}
+
+.team, .position {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: #6c757d;
+  background-color: #f1f3f5;
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+
+.stat-highlight {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
+.stat-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #212529;
+}
+
+.percent-change {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-right: 10px;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.positive {
+  color: #28a745;
+  background-color: rgba(40, 167, 69, 0.1);
+}
+
+.negative {
+  color: #dc3545;
+  background-color: rgba(220, 53, 69, 0.1);
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #6c757d;
+  flex-basis: 100%;
+  margin-top: 5px;
+}
+
+.chart-container {
+  margin-top: auto;
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.view-details {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #4CAF50;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #4CAF50;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.view-details:hover {
+  background-color: #4CAF50;
+  color: white;
+}
